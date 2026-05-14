@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', event => {
         console.log(formObject)
 
         try {
-            const response = await fetch("https://submit-form.com/Md0m0QflH", {
+            const response = await fetch("https://submit-form.com/YgUUCljfL", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
