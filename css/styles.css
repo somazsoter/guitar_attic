@@ -125,6 +125,12 @@ p {
   font-size: 1.15rem;
 }
 
+@media (max-width: 540px) {
+  p {
+    font-size: 1.05rem;
+  }
+}
+
 ul {
   font-family: Optima, sans-serif;
   font-size: 1rem;
@@ -10880,9 +10886,19 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.page-section h2.section-heading-shrink, .page-section .section-heading-shrink.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 @media (max-width: 540px) {
   .page-section h2.section-heading, .page-section .section-heading.h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h2.section-heading-shrink, .page-section .section-heading-shrink.h2 {
+    font-size: 1.7rem;
     margin-top: 0;
     margin-bottom: 1rem;
   }
@@ -10965,7 +10981,7 @@ p {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  font-size: 0.97rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
@@ -11002,7 +11018,7 @@ p {
     height: 3rem;
   }
   #mainNav .navbar-nav .nav-item {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
   }
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
@@ -11415,4 +11431,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     font-size: large;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+  .larger {
+  font-size: 1.1rem;
+}
 }
