@@ -8130,6 +8130,18 @@ textarea.form-control-lg {
   color: #41474d !important;
 }
 
+.text-muted-faq {
+  --bs-text-opacity: 1;
+  color: #2B3137 !important;
+  font-size: 1.1rem !important;
+}
+
+.text-muted-prices {
+  --bs-text-opacity: 1;
+  color: #565e64 !important;
+  font-size: 1.4rem !important;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -11434,4 +11446,62 @@ section#contact form#contactForm :-ms-input-placeholder {
   .larger {
   font-size: 1.1rem;
 }
+}
+
+/* FAQ */
+
+.faq {
+  --faq-ink: #1d2733;
+  --faq-muted: #5b6675;
+  --faq-line: #dfe3e8;
+  --faq-accent: #2f5d50;      /* change this to match your brand */
+  --faq-soft: #f3f6f4;
+  color: var(--faq-ink);
+}
+
+.faq-title {
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.faq-lead {
+  color: var(--faq-muted);
+  max-width: 34ch;
+}
+
+.faq-help a {
+  color: var(--faq-accent);
+  font-weight: 600;
+}
+
+/* Accordion: flat rows separated by lines instead of boxed cards */
+.faq .accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-width: 0;
+  --bs-accordion-btn-bg: transparent;
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-active-color: var(--faq-accent);
+  --bs-accordion-btn-padding-x: 0;
+  --bs-accordion-btn-padding-y: 1.25rem;
+  --bs-accordion-body-padding-x: 0;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .2rem rgba(47, 93, 80, .25);
+}
+.faq .accordion-item {
+  border-bottom: 1px solid var(--faq-line);
+  background: transparent;
+}
+.faq .accordion-item:first-child {
+  border-top: 1px solid var(--faq-line);
+}
+.faq .accordion-button {
+  font-size: 1.075rem;
+  font-weight: 600;
+  color: var(--faq-ink);
+  box-shadow: none;
+}
+.faq .accordion-button:not(.collapsed) {
+  color: var(--faq-accent);
+  box-shadow: none;
 }
