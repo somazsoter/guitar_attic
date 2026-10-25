@@ -129,6 +129,11 @@ p {
   p {
     font-size: 1.05rem;
   }
+  p.text-muted-faq {
+  --bs-text-opacity: 1;
+  color: #2B3137 !important;
+  font-size: 1rem;
+  }
 }
 
 ul {
@@ -8133,7 +8138,7 @@ textarea.form-control-lg {
 .text-muted-faq {
   --bs-text-opacity: 1;
   color: #2B3137 !important;
-  font-size: 1.1rem !important;
+  font-size: 1.1rem;
 }
 
 .text-muted-prices {
@@ -10893,24 +10898,34 @@ p {
 .page-section {
   padding: 2rem 0;
 }
+.page-section h1.section-heading, .page-section .section-heading.h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h1.section-heading-shrink, .page-section .section-heading.h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.page-section h2.section-heading-shrink, .page-section .section-heading-shrink.h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 @media (max-width: 540px) {
-  .page-section h2.section-heading, .page-section .section-heading.h2 {
+  .page-section h1.section-heading, .page-section .section-heading.h1 {
     font-size: 1.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .page-section h2.section-heading-shrink, .page-section .section-heading-shrink.h2 {
+  .page-section h1.section-heading-shrink, .page-section .section-heading.h1 {
     font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 1.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
   }
