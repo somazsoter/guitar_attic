@@ -134,6 +134,17 @@ p {
   color: #2B3137 !important;
   font-size: 1rem;
   }
+  p.text-muted-prices {
+  --bs-text-opacity: 1;
+  color: #565e64 !important;
+  font-size: 1.2rem;
+  }
+  .faq h3 .accordion-button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--faq-ink);
+  box-shadow: none;
+  }
 }
 
 ul {
@@ -8144,7 +8155,7 @@ textarea.form-control-lg {
 .text-muted-prices {
   --bs-text-opacity: 1;
   color: #565e64 !important;
-  font-size: 1.4rem !important;
+  font-size: 1.4rem;
 }
 
 .text-black-50 {
